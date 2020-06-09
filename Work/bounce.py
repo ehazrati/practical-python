@@ -1,14 +1,8 @@
 # bounce.py
-#
-# Exercise 1.5
 
-#import numpy as np
-
-h = 100
-
-for i in range(1, 11):
-    h = h * 3.0/5.0
-    print(i, round(h, 4))
-
-
-
+height = 100
+bounce = 1
+while bounce <= 10:
+    height = height * (3/5)
+    print(bounce, round(height, 4))
+    bounce += 1
